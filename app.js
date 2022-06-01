@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require('lodash');
 const mongoose = require("mongoose");
-
+const app = express();
 const homeStartingContent = "This is where we can express our views on different topics.Share our ideologies,help each other,Getting Better!";
 const aboutContent = "This is where we can express our views on different topics.Share our ideologies,help each other,Getting Better!";
 const contactContent = "It is here!"
