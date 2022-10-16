@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://PavanBhavaraju:Hanuman-11@cluster0.5ys8h.mongodb.net/dailyjournal?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://PavanBhavaraju:pass@cluster0.5ys8h.mongodb.net/dailyjournal?retryWrites=true&w=majority");
 
 const composeSchema = new mongoose.Schema({
   title : String,
